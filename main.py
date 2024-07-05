@@ -7,5 +7,5 @@ import report.py
 
 
 def main():
-    login.login()
+    login.login_menu()
     
