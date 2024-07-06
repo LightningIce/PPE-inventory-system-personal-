@@ -1,0 +1,20 @@
+Supplier: Supplier A
+Supplier code: A
+Tel.No: 03-80421760
+Address: 22, Jalan TPP 2/2, Taman Perindustrian Puchong, 47100 Puchong, Selangor.
+
+Supplier: Supplier B
+Supplier code: B
+Tel.No: 03-33443333
+Address: 30-2, Jalan Harmoni 1, Balakong, 43300 Seri Kembangan, Selangor.
+
+Supplier: Supplier C
+Supplier code: C
+Tel.No: 03-89255099
+Address: 28 GF, Jalan 15/2, Seksyen 15, 43650 Bandar Baru Bangi, Selangor.
+
+Supplier: Supplier D
+Supplier code: D
+Tel.No: 03-38953248
+Address: No.20, Jalan Bayi Tinggi 3, KS6, Batu Unjur, 41200 Klang, Selangor.
+

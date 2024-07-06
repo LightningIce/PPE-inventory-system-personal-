@@ -1,1 +1,3 @@
-User: adminPassword: admin
+User: admin
+Password: admin
+

@@ -1,0 +1,30 @@
+Item: Head cover
+Item code: HC
+Supplier code: A
+Stock: 100 boxes
+
+Item: Face shield
+Item code: FS
+Supplier code: B
+Stock: 100 boxes
+
+Item: Mask
+Item code: MS
+Supplier code: C
+Stock: 100 boxes
+
+Item: Gloves
+Item code: GL
+Supplier code: D
+Stock: 100 boxes
+
+Item: Gown
+Item code: GW
+Supplier code: A
+Stock: 100 boxes
+
+Item: Shoe covers
+Item code: SC
+Supplier code: B
+Stock: 100 boxes
+
