@@ -8,14 +8,17 @@ def login():
             
         print_login_page()
         
-        username = input("Enter Username to login: ")
-        password = input("Enter Password to login: ")
+        username = input("Enter Username to login: ").strip()
+        password = input("Enter Password to login: ").strip()
+        print()
         
         if validate_cred_user(latest_user(), username, password):
             print("Login Successful!")
+            print()
             main.main_menu()
         else:
             print("Invalid username or password.")
+            print()
             num_attempts += 1
 
 
@@ -23,8 +26,9 @@ def register():
     if validate_num_user():
         print_register_page()
 
-        username = input("Enter Username to register: ")
-        password = input("Enter Password to register: ")
+        username = input("Enter Username to register: ").strip()
+        password = input("Enter Password to register: ").strip()
+        print()
         
         users = add_user(latest_user(), username, password)
         write_user(users)
@@ -32,14 +36,16 @@ def register():
         main.main_menu()
     else:
         print("MAX USER REACHED")
+        print()
         main.main_menu()
 
 
 def delete_user():
     print_delete_page()
     
-    username = input("Enter Username to delete user: ")
-    password = input("Enter Password to delete user: ")
+    username = input("Enter Username to delete user: ").strip()
+    password = input("Enter Password to delete user: ").strip()
+    print()
     
     if validate_cred_user:
         users = delete_user(latest_user(), username, password)
@@ -47,6 +53,7 @@ def delete_user():
         main.main_menu()
     else:
         print("USER NOT FOUND")
+        print()
         main.main_menu()
 
 
@@ -98,7 +105,6 @@ def validate_cred_user(users, username, password):
     for user_info in users:
         if username == user_info[0] and password == user_info[1]:
             return True
-        
     return False
 
 
@@ -137,8 +143,8 @@ def latest_user():
 def write_user(users):
     user_file = open("user.txt", "w")
     for user_info in users:
-        user_file.write(f"User: {user_info[0]}")
-        user_file.write(f"Password: {user_info[1]}")
-        user_file.write()
+        user_file.writelines(f"User: {user_info[0]}")
+        user_file.writelines(f"Password: {user_info[1]}")
+        user_file.writelines()
     user_file.close()
 

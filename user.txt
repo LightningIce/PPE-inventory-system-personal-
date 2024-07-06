@@ -1,5 +1,1 @@
-user:xxxxx
-password:xxxxxx
-
-user:xxxxx
-password:xxxxxx
+User: adminPassword: admin

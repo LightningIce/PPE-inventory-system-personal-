@@ -31,7 +31,6 @@ def main_menu():
         restart_system()
     elif choice == 7:
         exit()
-    
 
 
 def main():
@@ -74,13 +73,13 @@ def restart_system():
     ["Hospital C", "C", "03-79557777", "Lot 70, 14 Jalan 14/7, Seksyen 14, 46300 Petaling Jaya, Selangor."],
     ["Hospital D", "D", "03-42996111", "2, Jalan Mamanda 10, Taman Dato Ahmad Said, 68000 Ampang, Selangor."]
     ]
-    item = [
+    items = [
     ["Head cover", "HC", "A", "100 boxes"],
-    ["Face shield", "FS", "MOD", "100 boxes"],
-    ["Mask", "MS", "SFL", "100 boxes"],
-    ["Gloves", "GL", "BES", "100 boxes"],
-    ["Gown", "GW", "MOD", "100 boxes"],
-    ["Shoe covers", "SC", "SFL", "100 boxes"]
+    ["Face shield", "FS", "B", "100 boxes"],
+    ["Mask", "MS", "C", "100 boxes"],
+    ["Gloves", "GL", "D", "100 boxes"],
+    ["Gown", "GW", "A", "100 boxes"],
+    ["Shoe covers", "SC", "B", "100 boxes"]
     ]
     
     login.write_user(users)
@@ -92,9 +91,6 @@ def restart_system():
     distribution_file.close()
     receiving_file = open("receiving.txt", "w")
     receiving_file.close()
-    
 
 
-
-if __name__ == "__main__":
-    main()
+restart_system()
