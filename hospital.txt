@@ -1,20 +1,20 @@
 Hospital: Hospital A
 Hospital code: A
-Tel.No: 03-26267777
+Tel.No: 0156789012
 Address: Jalan Raja, 50588 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur.
 
 Hospital: Hospital B
 Hospital code: B
-Tel.No: 03-91563999
+Tel.No: 0167890123
 Address: 2, Jalan 2/96b, Taman Cheras Indah, 56100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur.
 
 Hospital: Hospital C
 Hospital code: C
-Tel.No: 03-79557777
+Tel.No: 0178901234
 Address: Lot 70, 14 Jalan 14/7, Seksyen 14, 46300 Petaling Jaya, Selangor.
 
 Hospital: Hospital D
 Hospital code: D
-Tel.No: 03-42996111
+Tel.No: 0189012345
 Address: 2, Jalan Mamanda 10, Taman Dato Ahmad Said, 68000 Ampang, Selangor.
 

@@ -6,7 +6,7 @@ Stock: 100 boxes
 Item: Face shield
 Item code: FS
 Supplier code: B
-Stock: 0 boxes
+Stock: 100 boxes
 
 Item: Mask
 Item code: MS
@@ -16,7 +16,7 @@ Stock: 100 boxes
 Item: Gloves
 Item code: GL
 Supplier code: D
-Stock: 1 boxes
+Stock: 100 boxes
 
 Item: Gown
 Item code: GW
